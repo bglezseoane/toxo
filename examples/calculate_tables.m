@@ -17,8 +17,8 @@ model_list = {
     'models/multiplicative_3.csv'
     'models/threshold_3.csv'
     'models/additive_4.csv'
-    'multiplicative_4.csv'
-    'threshold_4.csv'
+    'models/multiplicative_4.csv'
+    'models/threshold_4.csv'
     };
 
 % Create a list of MAFs and heritabilities to test
