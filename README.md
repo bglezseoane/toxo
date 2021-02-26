@@ -1,3 +1,5 @@
+>This Toxo fork has been used during the development of [PyToxo](https://github.com/bglezseoane/pytoxo), for comparative purposes between both Python and Matlab versions [~[bglezseoane](https://github.com/bglezseoane)].
+
 # Toxo
 <p>
     <a href="https://doi.org/10.1186/s12859-020-3456-3" alt="DOI:10.1186/s12859-020-3456-3">
