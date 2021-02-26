@@ -17,7 +17,7 @@
 addpath('src/');
 
 % Adjust Matlab accuracy. Necessary to compute some models without errors
-digits(64);
+%digits(64);
 
 % Read all the models from 'models' folder
 model_list = {
