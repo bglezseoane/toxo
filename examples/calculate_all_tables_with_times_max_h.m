@@ -67,7 +67,7 @@ for i = 1:length(model_list)
                 pt = m.find_max_heritability(mafs, p(k));
                 comptime = toc;  % To time the table calculation
                 % Write the table to a file
-                file_name = sprintf("%s_%.1f_h%.1f.csv", m.name, maf(j), p(k));
+                file_name = sprintf("%s_%.1f_p%.1f.csv", m.name, maf(j), p(k));
                 pt.write(fullfile(output_folder, file_name), toxo.PTable.format_csv);
                 % Save the computation time into the times file
                 fid = fopen(fullfile(output_folder, 'times.txt'), 'a+');
